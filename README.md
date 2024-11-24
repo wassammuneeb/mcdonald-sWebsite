@@ -34,7 +34,7 @@ Includes links like Our Menu, Careers, Contact Us, Locate Me, and McDelivery.
 
 index.html        # Main entry point of the website
 style.css         # styling to the index page
-menu.html         # Dedicated menu pag
+menu.html         # Dedicated menu page
 menu.csss         # styling to the menu page
 app.js            # JavaScript for cart functionality
 
