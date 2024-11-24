@@ -38,15 +38,7 @@ menu.html         # Dedicated menu pag
 menu.csss         # styling to the menu page
 app.js            # JavaScript for cart functionality
 
-mcdonalds-replica/
-├── index.html        # Main entry point of the website
-├── menu.html         # Dedicated menu page
-├── css/
-│   └── styles.css    # Custom CSS styles
-├── js/
-│   └── script.js     # JavaScript for cart functionality
-├── img/
-│   └── ...           # Images used in the website
+
 
 
 
