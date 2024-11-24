@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="icon" href="McDonalds_Logo.png" type="image/png">
+    <link rel="stylesheet" href="menu.css" />
+   
+</head>
+<body>
+    <div class="nav">
+ <h1>Full Menu</h1>
+    </div>
+   
+    <div class="menu">
+        <div class="break">
+            <img src="../menuImages/img1.png" alt="" />
+            <h4>Omelette McMuffin Meal</h4>
+            <h5>Price: <span>280</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Omelette McMuffin Meal" data-price="280">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img2.png" alt="" />
+            <h4>Chicken Sausage McMuffin w/Egg Meal</h4>
+            <h5>Price: <span>320 </span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Chicken Sausage McMuffin w/Egg Meal" data-price="320">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img3.png" alt="" />
+            <h4>McAloo Tikki Burger Meal</h4>
+            <h5>Price: <span>150</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="McAloo Tikki Burger Meal" data-price="150">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img4.png" alt="" />
+            <h4>Veg McMuffin Meal</h4>
+            <h5>Price: <span>250</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Veg McMuffin Meal" data-price="250">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img5.png" alt="" />
+            <h4>Chicken McGrill Meal</h4>
+            <h5>Price: <span>300</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Chicken McGrill Meal" data-price="300">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img6.png" alt="" />
+            <h4>Spicy McChicken Meal</h4>
+            <h5>Price: <span>350</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Spicy McChicken Meal" data-price="350">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img7.png" alt="" />
+            <h4>McChicken Burger Meal</h4>
+            <h5>Price: <span>320</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="McChicken Burger Meal" data-price="320">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img8.png" alt="" />
+            <h4>French Fries</h4>
+            <h5>Price: <span>100</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="French Fries" data-price="100">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img9.png" alt="" />
+            <h4>McFlurry</h4>
+            <h5>Price: <span>120</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="McFlurry" data-price="120">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img10.png" alt="" />
+            <h4>Soft Drink</h4>
+            <h5>Price: <span>50</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Soft Drink" data-price="50">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img11.png" alt="" />
+            <h4>Shakes</h4>
+            <h5>Price: <span>150</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="Shakes" data-price="150">Add to Cart</button>
+        </div>
+        <div class="break">
+            <img src="../menuImages/img12.png" alt="" />
+            <h4>McFlurry with Oreo</h4>
+            <h5>Price: <span>180</span> Rs/-</h5>
+            <button class="add-to-cart" data-name="McFlurry with Oreo" data-price="180">Add to Cart</button>
+        </div>
+    </div>
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items"></div>
+        <div class="total-price">Total Price: <span id="totalPrice">0</span> Rs/-</div>
+        <button id="viewOrderSummary" class="btn">View Order Summary</button>
+        <button id="placeOrder" class="btn">Place Order</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>
